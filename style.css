@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #ffff;
+    text-decoration:none;
+}
+body{
+    background-image: linear-gradient(to right, #192a56,#2f3640);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: 
+    linear-gradient(to right,#192a56ca 30%,#2f3640c3),
+    url(flowers-9115519_1280.jpg)
+
+    ;
+    background-position: center;
+    width: 80%;
+    height: 600px;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right,#192a56ca 30%,transparent),
+    url(flowers-9115519_1280.jpg)
+
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul a {
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: #fff;
+}
+.content{
+    color: #fff;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+}
+.content p{
+    /* letter-spacing: 3px; */
+    line-height: 1.4;
+    width: 350px;
+    padding: 20px 0;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+
+background-color: transparent;
+border-color: #fff;
+color: #fff;
+
+}
